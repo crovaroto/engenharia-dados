@@ -1,0 +1,14 @@
+- Pypi: repositório público oficial de pacotes Python
+- Wheel e Sdist: dois tipos de distribuições
+- Setuptools: pacote usado em setup.py para gerar distribuições
+- Twine: pacote usado para subir as distribuições no repositório Pypi
+
+Comandos de criação de pacote:
+- python3 -m pip install --upgrade pip
+- python3 -m pip install --user Twine
+- python3 -m pip install --user Setuptools
+
+Criação do pacote
+- python3 setup.py sdist dbdist_wheel (tem que estar na pasta do projeto, aonde 
+                                       setup.py está)
+
